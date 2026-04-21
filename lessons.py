@@ -78,6 +78,10 @@
 #     # eng_kichik = a[0]
 #
 # print(f"Musbatlar: {mus_son},\n Manfiylar: {man_son},\n Nollar: {nol},\n ")
-
+import matplotlib.pyplot as plt
+import numpy as np
+val = np.random.randit(1,10,10)
+plt.bar(range(len(val)),val)
+plt.show()
 
 
